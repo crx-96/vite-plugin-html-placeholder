@@ -2,7 +2,8 @@
   "name": "vite-plugin-html-placeholder",
   "version": "1.0.2",
   "description": "一个vite的插件，用来替换html文件中的字符串",
-  "main": "src/index.ts",
+  "main": "src/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc"
   },
@@ -10,6 +11,9 @@
     "vite",
     "vite字符串替换",
     "vite-html"
+  ],
+  "files": [
+    "lib"
   ],
   "repository": {
     "type": "git",
